@@ -115,6 +115,7 @@
 .botonAndr {
   background-color: #611f69;
   color: white;
+  /*    font-size: 100%; */
   border-radius: 5px;
   border-width: 0;
   padding: 20px 24px 20px 24px;
@@ -151,6 +152,8 @@
   text-align: center;
 
 }
+
+
 
 .main-main {
   display: flex;
@@ -192,6 +195,7 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  /* flex-wrap: wrap; */
 }
 
 .text-video {
@@ -204,16 +208,19 @@
 .description-video {
   display: flex;
   justify-content: start;
+  /* padding: 0 15px 0 15px; */
 }
 .time-video{
   display: flex;
   justify-content: end;
 }
 
+
 .first-steps{
   background-color: #F6EFE8;
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 .first-steps-header{
   text-align: center;
@@ -230,10 +237,12 @@
 }
 .blocks-steps{
   margin-left: 5%;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 .first-text-block{
   max-width: 180px;
@@ -258,6 +267,8 @@
   margin-bottom: 20px;
 }
 
+/* ------------------ Raul 2º  ↓ ----------------- */
+
 .welcomeToW {
   background-color: #400d40;
   clip-path: ellipse(75% 100% at center top);
@@ -280,6 +291,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+/*   margin: auto; */
   justify-content: center;
   padding-bottom: 8%;
 }
@@ -304,10 +316,15 @@
   margin: 5px;
 }
 
+
 .main-fcontainer {
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
+/*   padding-left: 15px; */
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .f-logo {
   max-width: 20%;
@@ -327,6 +344,7 @@
   flex-direction: row;
   max-width: 100%;
   justify-content: left;
+  flex-wrap: wrap;
 }
 
 .list-bottom {
@@ -411,9 +429,10 @@
     display: none;
   }
   .conectProb {
-    display: none;
+    display: none; /* No consigo que funcione */
     max-width: 80%;
     align-items: center;
+ /*    padding-left: 116%; */
     justify-content: space-evenly;
   }
   .list-top {
