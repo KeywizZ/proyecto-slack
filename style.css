@@ -115,7 +115,6 @@
 .botonAndr {
   background-color: #611f69;
   color: white;
-  /*    font-size: 100%; */
   border-radius: 5px;
   border-width: 0;
   padding: 20px 24px 20px 24px;
@@ -152,8 +151,6 @@
   text-align: center;
 
 }
-
-/* ------------   Tomas  ↓ -------------------*/
 
 .main-main {
   display: flex;
@@ -195,7 +192,6 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  /* flex-wrap: wrap; */
 }
 
 .text-video {
@@ -208,14 +204,11 @@
 .description-video {
   display: flex;
   justify-content: start;
-  /* padding: 0 15px 0 15px; */
 }
 .time-video{
   display: flex;
   justify-content: end;
 }
-
-/* ------------------ Ricardo ↓ ---------------- */
 
 .first-steps{
   background-color: #F6EFE8;
@@ -265,8 +258,6 @@
   margin-bottom: 20px;
 }
 
-/* ------------------ Raul 2º  ↓ ----------------- */
-
 .welcomeToW {
   background-color: #400d40;
   clip-path: ellipse(75% 100% at center top);
@@ -289,7 +280,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-/*   margin: auto; */
   justify-content: center;
   padding-bottom: 8%;
 }
@@ -313,8 +303,6 @@
   padding: 20px 24px 20px 24px;
   margin: 5px;
 }
-
-/* ------------------ Ruben  ↓ ----------------- */
 
 .main-fcontainer {
   display: flex;
@@ -423,10 +411,9 @@
     display: none;
   }
   .conectProb {
-    display: none; /* No consigo que funcione */
+    display: none;
     max-width: 80%;
     align-items: center;
- /*    padding-left: 116%; */
     justify-content: space-evenly;
   }
   .list-top {
