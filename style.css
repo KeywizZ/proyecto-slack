@@ -346,6 +346,7 @@
   flex-direction: row;
 }
 
+
 .negrita{
   font-weight: bold;
 }
@@ -428,4 +429,17 @@
  /*    padding-left: 116%; */
     justify-content: space-evenly;
   }
+  .list-top {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+  }
+  .list-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  
 }
